@@ -1,0 +1,29 @@
+.navigation{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgb(50, 50, 50);
+  font-size: 2rem;
+  margin: 0;
+}
+
+.navigation-tabs{
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.underline{
+  background-color: white;
+  padding: 1px;
+}
+
+.navigation-tab{
+  color: white
+}
+
+.navigation-tab:hover{
+  cursor: pointer;
+  color: rgb(200, 200, 200)
+}
